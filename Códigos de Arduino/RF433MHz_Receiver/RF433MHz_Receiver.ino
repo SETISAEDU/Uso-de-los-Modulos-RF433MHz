@@ -4,7 +4,7 @@
 #include <VirtualWire.h>
 
 // Instanciacion del LCD i2c:
-LiquidCrystal_I2C lcd(0x27, 20, 4);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // definicion de nuevos caracter
 #define CIRCLE 0
