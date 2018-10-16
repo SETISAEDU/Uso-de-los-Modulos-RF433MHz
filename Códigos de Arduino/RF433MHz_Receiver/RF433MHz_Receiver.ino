@@ -63,7 +63,7 @@ float dato2 = 0.0;
 void setup()
 {
   //Inicializacion del LCD
-  lcd.begin();
+  lcd.init();
   lcd.backlight();
   lcd.setCursor(0, 0);  // Se pone el cursor en la primera posición de la pantalla.
   lcd.print("Iniciando...");
